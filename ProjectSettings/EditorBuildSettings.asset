@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Helix Pomatia/Scenes/SzeneTisch.unity
   - enabled: 1
     path: Assets/Helix Pomatia/Scenes/SzeneLabor.unity
+  - enabled: 1
+    path: Assets/Helix Pomatia/Scenes/SzeneSpiegel.unity

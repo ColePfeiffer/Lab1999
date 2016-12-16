@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Helix Pomatia_VariablesManager
   m_EditorClassIdentifier: 
   vars:
-  - label: FirstVisitSceneBed
+  - label: VisitedSceneBed
     id: 0
     type: 0
     val: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     canTranslate: 1
     textValLineID: -1
     popUpsLineID: -1
-  - label: FirstVisitSceneDoor
+  - label: VisitedSceneDoor
     id: 1
     type: 0
     val: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     canTranslate: 1
     textValLineID: -1
     popUpsLineID: -1
-  - label: FirstVisitSceneDesk
+  - label: VisitedSceneDesk
     id: 2
     type: 0
     val: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     canTranslate: 1
     textValLineID: -1
     popUpsLineID: -1
-  - label: IDCard+GlassesCheck
+  - label: CheckIDCard+Glasses
     id: 5
     type: 0
     val: 0
@@ -112,6 +112,20 @@ MonoBehaviour:
     popUpsLineID: -1
   - label: DiscoveredDepartment
     id: 7
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 0
+    canTranslate: 1
+    textValLineID: -1
+    popUpsLineID: -1
+  - label: VisitedMirror
+    id: 8
     type: 0
     val: 0
     floatVal: 0
@@ -157,6 +171,10 @@ MonoBehaviour:
       floatVal: 0
       textVal: 
     - id: 7
+      val: 0
+      floatVal: 0
+      textVal: 
+    - id: 8
       val: 0
       floatVal: 0
       textVal: 
