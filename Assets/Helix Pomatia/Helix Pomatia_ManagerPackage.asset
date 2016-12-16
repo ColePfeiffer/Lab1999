@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: Helix Pomatia_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: a1f3f7b217b67a24cb975dd153bc3cb3, type: 2}
+  sceneManager: {fileID: 11400000, guid: f73b97bffcb049643992ef6773d17afe, type: 2}
+  settingsManager: {fileID: 11400000, guid: b6c2f9b13896f204885819896603ce84, type: 2}
+  inventoryManager: {fileID: 11400000, guid: e465bdb2f47d5fe428b36a45bf9d0092, type: 2}
+  variablesManager: {fileID: 11400000, guid: 89ba36d182fe4f7469da9d9610040203, type: 2}
+  speechManager: {fileID: 11400000, guid: 7fe74c362a0b7ad49bc3967ee5de7f39, type: 2}
+  cursorManager: {fileID: 11400000, guid: 4819a4483979e5f4ea5a801eaf62e1ed, type: 2}
+  menuManager: {fileID: 11400000, guid: 423952bd092af554a9bd6501ed86d029, type: 2}
