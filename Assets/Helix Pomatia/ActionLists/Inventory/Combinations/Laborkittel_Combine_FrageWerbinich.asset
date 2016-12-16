@@ -71,8 +71,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 1
   speaker: {fileID: 0}
-  messageText: "K\xF6nnte das mein Laborkittel sein? Bin ich Wissenschaftler oder
-    sowas...?"
+  messageText: "K\xF6nnte das mein Laborkittel sein?"
   lineID: -1
   multiLineIDs: 
   isBackground: 0

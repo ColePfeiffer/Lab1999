@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: IDKarte_Combine_Brille
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 114000014111920142}
   - {fileID: 114000013146147180}
   - {fileID: 114000013385737300}
   - {fileID: 114000010850405910}
@@ -21,6 +22,7 @@ MonoBehaviour:
   - {fileID: 114000011166863324}
   - {fileID: 114000010466438482}
   - {fileID: 114000010307380682}
+  - {fileID: 114000011197322910}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -64,7 +66,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 4
+  skipAction: 5
   skipActionActual: {fileID: 114000014225989734}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -75,7 +77,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 933
+    y: 1121
     width: 300
     height: 122
   nodeHeight: 0
@@ -130,8 +132,8 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 9
+  skipActionActual: {fileID: 114000010307380682}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -140,8 +142,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 421
-    y: 1750
+    x: 364
+    y: 1987
     width: 300
     height: 104
   nodeHeight: 0
@@ -179,12 +181,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 6
+    skipAction: 7
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 6
+  skipAction: 7
   skipActionActual: {fileID: 114000011166863324}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -195,7 +197,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1604
+    y: 1792
     width: 300
     height: 104
   nodeHeight: 0
@@ -233,7 +235,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 2
+  skipAction: 3
   skipActionActual: {fileID: 114000010850405910}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -244,7 +246,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 441
+    y: 629
     width: 300
     height: 462
   nodeHeight: 0
@@ -296,12 +298,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 8
+    skipAction: 9
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 8
+  skipAction: 9
   skipActionActual: {fileID: 114000010307380682}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -311,8 +313,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 418
-    y: 1567
+    x: 364
+    y: 1792
     width: 300
     height: 165
   nodeHeight: 0
@@ -321,6 +323,73 @@ MonoBehaviour:
   obToAffect: {fileID: 0}
   affectChildren: 0
   visState: 1
+--- !u!114 &114000011197322910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: 0.1
+  isRunning: 0
+  lastResult:
+    resultAction: 1
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 513
+    y: 73
+    width: 300
+    height: 202
+  nodeHeight: 0
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  speaker: {fileID: 0}
+  messageText: "Ich habe die ID-Karte bereits gelesen und ich w\xFCrde die Brille
+    gerne in meiner Tasche belassen."
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &114000011638656626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -347,7 +416,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 7
+    skipAction: 8
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -363,17 +432,17 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1434
+    y: 1622
     width: 300
     height: 140
   nodeHeight: 0
   resultActionTrue: 2
-  skipActionTrue: 6
+  skipActionTrue: 7
   skipActionTrueActual: {fileID: 114000011166863324}
   linkedCutsceneTrue: {fileID: 0}
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
-  skipActionFail: 7
+  skipActionFail: 8
   skipActionFailActual: {fileID: 114000010466438482}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
@@ -409,12 +478,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 1
+    skipAction: 2
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 1
+  skipAction: 2
   skipActionActual: {fileID: 114000013385737300}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -425,7 +494,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 202
     width: 300
     height: 202
   nodeHeight: 0
@@ -434,8 +503,8 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 1
   speaker: {fileID: 0}
-  messageText: "Was ist es, das diese Brille so unangenehm f\xFCr mich macht? Ohne
-    geht es nicht."
+  messageText: "Wieso str\xE4ube ich mich so vor dieser Brille? Sie gibt mir nach
+    wie vor ein beklemmendes Gef\xFChl."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -475,12 +544,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 2
+    skipAction: 3
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 2
+  skipAction: 3
   skipActionActual: {fileID: 114000010850405910}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -491,7 +560,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 246
+    y: 434
     width: 300
     height: 165
   nodeHeight: 0
@@ -500,6 +569,78 @@ MonoBehaviour:
   obToAffect: {fileID: 0}
   affectChildren: 0
   visState: 0
+--- !u!114 &114000014111920142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: 0.1
+  isRunning: 0
+  lastResult:
+    resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: 9
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 176
+  nodeHeight: 0
+  resultActionTrue: 2
+  skipActionTrue: 10
+  skipActionTrueActual: {fileID: 114000011197322910}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 1
+  skipActionFailActual: {fileID: 114000013146147180}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  variableID: 5
+  variableNumber: 5
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 0
+  floatValue: 0
+  intCondition: 0
+  isAdditive: 0
+  boolValue: 1
+  boolCondition: 0
+  stringValue: 
+  checkCase: 1
+  location: 0
 --- !u!114 &114000014225989734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -527,12 +668,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 5
+    skipAction: 6
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 5
+  skipAction: 6
   skipActionActual: {fileID: 114000011638656626}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -543,7 +684,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1085
+    y: 1273
     width: 300
     height: 319
   nodeHeight: 0
