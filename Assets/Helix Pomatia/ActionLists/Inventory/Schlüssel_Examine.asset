@@ -49,8 +49,8 @@ MonoBehaviour:
   defaultPauseTime: 0.1
   isRunning: 0
   lastResult:
-    resultAction: 0
-    skipAction: -10
+    resultAction: 1
+    skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -116,8 +116,8 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 3
-    skipActionActual: {fileID: 114000013635684894}
+    skipAction: 4
+    skipActionActual: {fileID: 114000010050428824}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 1
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
